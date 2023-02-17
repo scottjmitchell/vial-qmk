@@ -28,6 +28,9 @@
 #define RGB_MATRIX_KEYPRESSES
 
 //Vial Keyboard UID
-#define VIAL_KEYBOARD_UID {0xEC, 0xFE, 0x5D, 0x44, 0x1A, 0x9C, 0x70, 0xCC}
-#define VIAL_UNLOCK_COMBO_ROWS { 1, 10 }
-#define VIAL_UNLOCK_COMBO_COLS { 3, 4 }
+#define VIAL_KEYBOARD_UID {0x22, 0xA2, 0x2B, 0xF1, 0x23, 0xF0, 0x5C, 0x3B}
+#define VIAL_UNLOCK_COMBO_ROWS { 0, 0 }
+#define VIAL_UNLOCK_COMBO_COLS { 0, 1 }
+
+//Turn off LED when sleep
+#define RGB_DISABLE_WHEN_USB_SUSPENDED
